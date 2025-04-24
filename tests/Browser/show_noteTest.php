@@ -23,7 +23,7 @@ class show_noteTest extends DuskTestCase
             ->press('LOG IN')
             ->assertPathIs('/dashboard')
             ->clickLink('Notes')
-            ->assertPathIs('/notes')
+            ->assertPathIs('/notes');
         });
     }
 }
